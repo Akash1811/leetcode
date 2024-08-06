@@ -3,7 +3,7 @@ class Solution:
         res=""
         i=0
         j=0
-        while i<len(word1) and j<len(word2):
+        while i<len(word1) and i<len(word2):
             res+=word1[i]+word2[j]
             i+=1
             j+=1
