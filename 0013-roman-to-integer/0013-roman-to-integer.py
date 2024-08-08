@@ -5,12 +5,12 @@ class Solution:
         n=len(s)
         i=0
         while i<n:
-            if i < n-1 and d[s[i]]<d[s[i+1]]:
+            if i<n-1 and d[s[i]]<d[s[i+1]]:
                 summ+=d[s[i+1]]-d[s[i]]
                 i+=2
             else:
                 summ+=d[s[i]]
                 i+=1
-        return summ
+        return summ    
             
         
