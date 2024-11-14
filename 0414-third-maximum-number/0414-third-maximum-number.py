@@ -6,3 +6,4 @@ class Solution:
             return nums[-1]
         else:
             return nums[-3]
+        
